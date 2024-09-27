@@ -14,14 +14,12 @@
 :root{
     --bg-color : #fdfdfd;
     --text-color: #333;
-    /* --main-color: #754efd; */
     --main-color:#800020;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0,0,0,.2);
 }
 
 .dark-mode{
-    /* --bg-color : #0b061f; */
     --main-color:#677D6A;
     --bg-color:#021526;
     --text-color: #fdfdfd;
@@ -252,11 +250,6 @@ section{
 }
 
 .home-img img{
-    /* position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    pointer-events: none; */
     position: absolute;
     top: 50%;
     right: 0;
@@ -326,7 +319,6 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* grid-template-columns: repeat(2,1fr); */
     align-items: center;
     gap:2.5rem;
 }
@@ -477,7 +469,6 @@ span{
 
 .timeline-content h3{
     font-size: 20px;
-    /* color: white; */
     margin: 0 0 10px;
     font-weight: 500;
 }
@@ -742,9 +733,6 @@ span{
     .education h2{
         margin-bottom: 3rem;
     }
-    /* .project .project-container{
-        /* grid-template-columns: repeat(2,1fr); */
-    /*}*/  
 }
 
 @media(max-width:617px){
@@ -777,12 +765,4 @@ span{
         transform: rotate(180deg) translate(-210px,-335px);
     }
 }
-@media(max-width:365px){
-    /* .footer{
-        flex-direction: column-reverse;
-    } 
-    .footer p{
-        text-align: center;
-        margin-top: 2rem;
-    } */
-}
+
